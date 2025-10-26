@@ -21,6 +21,6 @@ class ProdutoController extends Controller
 
         Produto::create($validated);
 
-        return redirect('/produtos')->with('success', 'Produto criado com sucesso.');
+        return redirect('/produtos')->with('sucesso', 'Produto criado com sucesso.');
     }
 }

@@ -21,6 +21,6 @@ class CategoriaController extends Controller
 
         Categoria::create($validated);
 
-        return redirect('/categorias')->with('success', 'Categoria criada com sucesso.');
+        return redirect('/categorias')->with('sucesso', 'Categoria criada com sucesso.');
     }
 }

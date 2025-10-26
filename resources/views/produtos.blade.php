@@ -10,8 +10,8 @@
 <div class="container">
     <h1>Produtos</h1>
 
-    @if(session('success'))
-        <div class="alert alert-success">{{ session('success') }}</div>
+    @if(session('sucesso'))
+        <div class="alert alert-success">{{ session('sucesso') }}</div>
     @endif
 
     @if($errors->any())

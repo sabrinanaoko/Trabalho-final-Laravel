@@ -11,14 +11,14 @@ class CreateCategoriasTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::create('categorias', function (Blueprint $table) {
-            $table->id();
-            $table->string('nome');
-            $table->timestamps();
-        });
-    }
+public function up()
+{
+    Schema::create('categorias', function (Blueprint $table) {
+        $table->id();
+        $table->string('nome');
+        $table->timestamps();
+    });
+}
 
     /**
      * Reverse the migrations.
